@@ -1,0 +1,10 @@
+<h1>
+    {{ title }}<!--  додаємо заголовок 1-го типу на основну сторінку сайту -->
+  </h1>
+  <!-- <app-heroes></app-heroes> виводимо дані з створеного нами компоненту heroes на основну сторінку сайту -->
+<nav>
+   <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav><!--  виводимо роути -->
+<router-outlet></router-outlet>
+<app-messages></app-messages><!--  виводимо дані з створеного нами компоненту messages на основну сторінку сайту -->
